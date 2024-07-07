@@ -1,0 +1,16 @@
+Day 3 was slightly better than Day 2.
+On this day, I did a new topics.
+First one is 'basic linux commands'.
+Basic linux commands include 'mkdir' command, 'cd' command, 'cat' command, 'cat >' command, 'rmdir' command, 'rm -r' command,'ls' commands,'touch' command,'..' command,'cp' command,'mv'command and much more.
+'mkdir' command is used to create a new directory/folder.
+'cd'command is used to change directory.
+'cat' command is used to view contents of a file.
+'cat >' command is used to write the contents in a file.
+'rmdir' command is used to remove a directory;.
+'rm -r' command is used to force remove anything.
+'ls' command is used to list all the directory of files available.
+'touch' is used to create a new file.
+'..' is used to get out of a directory.
+'cp <file name> <path's name where to use>' command is used to copy the contents of a file into another file.
+'mv <file name> <path's name where to use>' command is used to move the contents of a file into another file.
+It was a overall nice experience.
