@@ -1,0 +1,12 @@
+Today, sir told about OSI model.
+OSI stands for Open Systems Interconnection. It has 7 layers Physical layer, Data Link layer, Network layer, Transport layer, Session layer, Presentation layer, and Application layer.
+When we transfer information from one device to another, it travels through 7 layers of OSI model. First data travels down through 7 layers from the sender’s end and then climbs back 7 layers on the receiver’s end.
+
+Data flows through the OSI model in a step-by-step process:
+Application Layer: Applications create the data.
+Presentation Layer: Data is formatted and encrypted.
+Session Layer: Connections are established and managed.
+Transport Layer: Data is broken into segments for reliable delivery.
+Network Layer: Segments are packaged into packets and routed.
+Data Link Layer: Packets are framed and sent to the next device.
+Physical Layer: Frames are converted into bits and transmitted physically.
