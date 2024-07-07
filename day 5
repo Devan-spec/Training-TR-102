@@ -1,0 +1,9 @@
+Today, i studied Linux commands.
+LInux commands are of 5 types.
+They are:- & commannd, && command, > command, >> command and grep command
+& command is used for allowing commands in the background.
+&& command is used for typing more than one command. For eg:- sudo update && sudo install
+> command is used to write over files.
+>> command is used when you want to write over a file and also secure some data in the file.
+Grep command is used when we want to search one word from more than one word written in a file.
+Nice experience 
