@@ -1,0 +1,9 @@
+Next day was a bit trickier than the previous day
+Today, we did topic 'permission table'.
+Permission table is a table showing permissions to created files and directories.
+There are three main types of permission seekers: - 1) group 2) users 3) others/public.
+Permission to read is given by the no.4, write is given by 2 and execute is given by 1.
+Permission Table is pooped out by using command ls -l or ls -al.
+We can change the permission by using command 'chmod'.
+Suppose we are writing command 'chmod 700 "file name or directory name"'. Group will get all the permission of the file which we write. Users and others will not get any permission.
+'chmod 421 "file name or directory". Group will get permission to read, Users to writeand others to execute.
