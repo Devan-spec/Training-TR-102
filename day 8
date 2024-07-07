@@ -1,0 +1,15 @@
+Today, sir told abut nmap
+Nmap is a port scanning and world famous tool.
+To implement this tool, First type 'nmap --help' in your terminal to see all the switches that can be used in nmap.
+FIrst type ping <name of the website> to find IP address of the website. Ping command also tells whelther the web page is live or not.
+Then write nmap <name of the switch> <Target's IP address>.
+
+For eg. we have to scan gndec website.
+So, we will write 'ping gndec.ac.in' to get IP of the webpage.
+Next ,we will write 'nmap <IP address>' to scan device.
+If we want to scan multiple devices, we hacve to give 'nmap <ip1>,<ip2>.
+if we want to do syn scan on a device, we have to give command'nmap -sS <ip address>
+
+We can try different switches in nmap withg the help of 'nmap -h' command.
+We can also give multiple switches in the same nmap command.
+For eg: We want to syn scan as well as we also want the type of port which we are scanning is 'http'. So, for this, We will use the command 'nmap -sS -p80 <Target ip addsress>' to the terminal 
