@@ -1,0 +1,10 @@
+Today, sir told about DOS attack.
+Dos attack is also known as denial of service attack.
+When we sends more no. of packets in a minute such that web site confuses to which packet to respond, it causes the web site to temporarily shut down. This type ofattack nis known as dos attack
+
+Installation:-
+step 1:- command 'git clone https://github.com/XCHADXFAQ77X/XERXES.git'.
+step 2:- change permissions of XERXES file to execute by all three users.
+Step 3:- once done,type 'ls -l' command to see the changes.
+step 4:- to execute, run './xerxes gndec.ac.in 80'.
+step 5:-to stop this attack, use 'crtl+c'to exit.
