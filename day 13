@@ -1,0 +1,13 @@
+Today, Sir told us about hashes
+Hashes are those which are not understandable by users. They must be decrypted in order to get understood.
+
+To decrypt them, we are known to do these things,
+1) install Hash-identifier on your terminal by using command 'sudo apt-get install hash-identifier'.
+2) type 'hash-identifier'.
+3) Then type hash you want to search. Then, you will get which type of hash is it.
+4) Type 'hashcat -h'. you will see a no. flashing in front of the hash type upon scrolling up the terminal machine.
+5) At last type, type 'hashcat -m <the no.> <hash which u are searching', to decode the hash.
+
+Sir told about cyberchef website where we can easily decode any hash.
+
+Nice experience
