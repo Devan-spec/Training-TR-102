@@ -1,0 +1,10 @@
+Today, Sir told about encryption and decryption.
+encryption is the conversion of Plain text to sypher text.
+when we write a password, and sign up a web site for the first time, The password is stored in the form of hashes.
+Hashes are that key which is not directly understood by the users or hackers.
+we decrypt the Hashes and then these are understood by the users.
+Hashes are irreversible. meaning, once done cann't be changed.
+Encryption of data is of two types:- 
+1) Symmetric text:- when only one peson has the key (eg. sender has the key to the password).
+2) Assymetric text:- When both (sender and reciever) has the key to the password. It is most commonly used.
+3rd person can't access the encrypted data.
