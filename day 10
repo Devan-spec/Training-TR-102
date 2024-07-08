@@ -1,0 +1,12 @@
+Today, sir told about TCP/IP model
+The TCP/IP model is a fundamental framework for computer networking. It stands for Transmission Control Protocol/Internet Protocol, which are the core protocols of the Internet. This model defines how data is transmitted over networks, ensuring reliable communication between devices.
+  
+It consists of four layers: the Link Layer, the Internet Layer, the Transport Layer, and the Application Layer. 
+WHAT IS APPLICATION LAYER?
+This layer is analogous to the transport layer of the OSI model. It is responsible for end-to-end communication and error-free delivery of data. It shields the upper-layer applications from the complexities of data.
+WHAT IS TRANSPORT LAYER?
+The TCP/IP transport layer protocols exchange data receipt acknowledgments and retransmit missing packets to ensure that packets arrive in order and without error. End-to-end communication is referred to as such.
+WHAT IS NETWORK/INTERNET LAYER?
+This layer parallels the functions of OSI’s Network layer. It defines the protocols which are responsible for the logical transmission of data over the entire network.
+WHAT IS NETWORK ACCESS LAYER?
+It is a group of applications requiring network communications. This layer is responsible for generating the data and requesting connections. It acts on behalf of the sender and the Network Access layer on the behalf of the receiver.
