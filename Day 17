@@ -1,0 +1,9 @@
+Today, sir told about Active informarion gathering tools.
+There are different tools to hack a device.
+Nmap(Network Mapping): -tool for network discovery and security auditing
+Wireshark: -Network protocol analyser that lets u capture and interactively browse the traffic running on a computer network.
+Nessus: -Vulnerability, configuration and compliance assessment tool.
+Netcat: -Network utility for reading from and writing to network connection .
+OWASP Zap(Open web application security project): -Security tool for finding security vulnerabilities in web application.
+Nikto: -Web server scanner which perform comprehensive tests against web servers for multiple item.
+Aircrack-ng: -A suite of tool to access WiFi Network security.
