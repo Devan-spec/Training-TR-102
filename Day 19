@@ -1,3 +1,34 @@
 Today, sir told about brute force attack.
 A brute force attack is a hacking method that uses trial and error to crack passwords, login credentials, and encryption keys. It is a simple yet reliable tactic for gaining unauthorized access to individual accounts and organizations' systems and network.
-Hydra is a tool which is used to do brute force.
+Hydra is a tool used to brute force
+How to Use Hydra  to Hack Passwords – Penetration Testing Tutorial
+
+Hydra is a brute-forcing tool that helps penetration testers and ethical hackers crack the passwords of network services.
+
+Hydra can perform rapid dictionary attacks against more than 50 protocols. This includes telnet, FTP, HTTP, HTTPS, SMB, databases, and several other services.
+
+Hydra is also a parallelized login cracker. This means you can have more than one connection in parallel. Unlike in sequential brute-forcing, this reduces the time required to crack a password.
+
+How to Install Hydra
+Hydra comes pre-installed with Kali Linux and Parrot OS. So if you are using one of them, you can start working with Hydra right away.
+
+On Ubuntu, you can use the apt package manager to install it:
+$ apt install hydra
+In Mac, you can find Hydra under Homebrew:
+
+$ brew install hydra
+If you are using Windows, I would recommend using a virtual box and installing Linux. Personally, I don't recommend using Windows if you want to be a professional penetration tester.
+
+How to Work with Hydra
+Let’s look at how to work with Hydra. We will go through the common formats and options that Hydra provides for brute-forcing usernames and passwords. This includes single username/password attacks, password spraying, and dictionary attacks.
+If you have installed Hydra, you can start with the help command like this:
+Hydra help command
+$ hydra -h
+This will give you the list of flags and options that you can use as a reference when working with Hydra.
+
+How to Perform a Single Username/Password Attack with Hydra
+Let’s start with a simple attack. If we have the username and password that we expect a system to have, we can use Hydra to test it.
+Here is the syntax:
+$ hydra -l <username> -p <password> <server> <service>
+Let’s assume we have a user named “molly” with a password of “butterfly” hosted at 10.10.137.76. Here is how we can use Hydra to test the credentials for SSH:
+$ hydra -l molly -p butterfly 10.10.137.76
