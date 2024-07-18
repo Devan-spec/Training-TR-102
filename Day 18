@@ -1,0 +1,11 @@
+Today, sir told about Passive information gathering tools
+There are different tools to hack a device.
+1) Whois lookup:- provides information about domain name and their contact information.
+2) Ns lookup:- Queries DNS to obtain domain name or IP address mapping or domain records.
+3) The harvestor: -Gather email subdomain host, employee names, open ports, and banners from different public sources.
+4) Shodan utility: -A search engine that lets u find specific types of computer connected to the internet using various filters.
+5) Censys Utility: -Collects data on hosts and website through regular scans of the public internet.
+6) Maltego: -Proprietary software for open-source intelligence and forensics.
+7) Google Dorks:- Uses advanced search queries in Google to find vulnerability and sensitive information.
+8) Netcraft:- Provides internet Security services including cyber security and antifraud.
+9) Builtwith: -tells u what a website is built with by looking at its technology stack.
