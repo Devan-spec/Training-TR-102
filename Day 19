@@ -4,9 +4,6 @@ Hydra is a tool used to brute force
 How to Use Hydra  to Hack Passwords – Penetration Testing Tutorial
 
 Hydra is a brute-forcing tool that helps penetration testers and ethical hackers crack the passwords of network services.
-
-Hydra can perform rapid dictionary attacks against more than 50 protocols. This includes telnet, FTP, HTTP, HTTPS, SMB, databases, and several other services.
-
 Hydra is also a parallelized login cracker. This means you can have more than one connection in parallel. Unlike in sequential brute-forcing, this reduces the time required to crack a password.
 
 How to Install Hydra
@@ -14,10 +11,9 @@ Hydra comes pre-installed with Kali Linux and Parrot OS. So if you are using one
 
 On Ubuntu, you can use the apt package manager to install it:
 $ apt install hydra
-In Mac, you can find Hydra under Homebrew:
 
+In Mac, you can find Hydra under Homebrew:
 $ brew install hydra
-If you are using Windows, I would recommend using a virtual box and installing Linux. Personally, I don't recommend using Windows if you want to be a professional penetration tester.
 
 How to Work with Hydra
 Let’s look at how to work with Hydra. We will go through the common formats and options that Hydra provides for brute-forcing usernames and passwords. This includes single username/password attacks, password spraying, and dictionary attacks.
@@ -31,4 +27,17 @@ Let’s start with a simple attack. If we have the username and password that we
 Here is the syntax:
 $ hydra -l <username> -p <password> <server> <service>
 Let’s assume we have a user named “molly” with a password of “butterfly” hosted at 10.10.137.76. Here is how we can use Hydra to test the credentials for SSH:
-$ hydra -l molly -p butterfly 10.10.137.76
+$ hydra -l molly -p butterfly 10.10.137.76 ssh.
+
+How to Perform a Password Spraying Attack with Hydra
+What if we know a password that someone is using, but we are not sure who it is? We can use a password spray attack to determine the username.
+A password spray attack is where we use a single password and run it against a number of users. If someone is using the password, Hydra will find the match for us.
+This attack assumes we know a list of users in the system. For this example, we will create a file called users.txt with the following users:
+root
+admin
+user
+molly
+steve
+richard
+Now we are going to test who has the password “butterfly”. Here is how we can run a password spray attack using Hydra.
+$ hydra -L users.txt -p butterfly 10.10.137.76 ssh
