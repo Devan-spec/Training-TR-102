@@ -1,0 +1,54 @@
+Today, sir told about camphish tool
+
+CamPhish is one of the tool used for simple fishing attack using kali Linux Operating System. The main goal of this tool is to capture victim Photos.
+
+Working Mechanism
+Step 1: Clone the code of CamPhish from GitHub
+  git clonehttps://github.com/techchipnet/CamPhish
+
+
+Step 2: Make file camphish.sh executable
+1. After the file is downloaded, list the directory be ls command.
+
+2. Move inside the camphish folder.
+
+3. List the files of the CamPhish Directory by command: ls
+
+4. You will see many files but we will focus on camphish.sh to make executable.
+
+5. Making file camphish.sh executable.
+
+6. command: chmod +x camphish.
+
+7. List the files again. You will see the camphish in bule color. It means that the file is executable.
+
+Step 3: Running camphish.sh by command: ./camphish.sh
+1. After running ./camphish.sh, you will somthing like this.
+
+2. select the option 2
+
+3. Select the Festival Wishing Option(1). Name the Festival name as you wish
+
+4. Choose Subdomain: n option
+
+5. You will see the link is generated. You are also waiting for the target here. So If you exit from this, you will not receive photos. So stay there.
+
+Step 4: victim
+1. copy the link and send it to your victim.
+
+2. The camera access should be allow form the victim in order to access the camera.
+
+3. wait till the victim response.
+
+Step 5: Open
+1. After the victim response, you will see the files.
+
+2. You can exit from that by simply Click: Crtl+C
+
+3. List the files by ls command.
+
+4. You will see .png files received .
+
+5. Open the file by Open <name.png>
+
+6. You will see the photos of the victim
