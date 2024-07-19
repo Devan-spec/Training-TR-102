@@ -1,0 +1,72 @@
+Today, sir told about exiftool.
+
+EXIF tool is a widely used meta-data information recorder built on Perl by Phil Harvey. It is one of a kind open-source tool which works on a variety of file types. EXIF stands for Exchangeable Image File Format, and it is mainly used for including metadata in various file types like txt, png, jpeg, pdf, HTML and many more. With EXIF tool we can also read, write and manipulate such meta-data information.
+
+Installation:
+Exiftool is an open-source tool. The library is built with Platform Independent Perl library. 
+
+1. Clone the git repo onto your system.
+  git clone https://github.com/exiftool/exiftool.git
+
+2. Test the tool with a test file present in the repository
+  cd exiftool
+  ./exiftool t/images/ExifTool.jpg
+
+Exiftool Installation
+Alternatively, on Ubuntu distribution you can use:
+  sudo apt install libimage-exiftool-perl
+
+Exiftool Installation
+Or simply use the following command it will automatically capture the above command.
+  sudo apt install exiftool
+
+Exiftool Installation
+For downloading directly from the Source, use the following commands. This will work for any Linux distro including CentOS.
+  wget https://sourceforge.net/projects/exiftool/files/Image-ExifTool-12.16.tar.gz
+  tar xvf Image-ExifTool-12.16.tar.gz
+  cd Image-ExifTool-12.16/
+  ./exiftool t/images/ExifTool.jpg
+
+Exiftool Installation
+To install it globally, make install the file.
+Note: As it runs on Perl, you must have Perl installed on your Linux Distro.
+  perl Makefile.PL
+  make
+  make test
+  make install
+
+Exifttool Installation 
+You can now run ExifTool anywhere in your terminal by typing exiftool.
+
+Usage:
+Reading Meta-Data:
+1. To extract the entire list of metadata from the file uses the following command.
+  exiftool  <filename>
+  Exiftool  usage
+
+2. To extract the ids along with the Exif Tags in their Hexadecimal Format, run the above command with -H flag.
+  exiftool -H <filename>
+  Exiftool  usage
+
+3. ExifTool maintains the list of most common Exif Tags for a file, which could be viewed with the following flag.
+  exiftool --common <filename>
+  Exiftool  usage
+
+4. With ExifTool we can also extract the preview image or the thumbnail of an image file.
+  exiftool -PreviewImage [filename.jpg] > [Output.jpg]
+  exiftool -ThumbnailImage [filename.jpg] > [Output.jpg]
+  Exiftool  usage
+
+Example:
+  exiftool -b -PreviewImage CSM30803.CR2 > abc.jpg
+  -b to extract binary information and store the result in abc.jpg file
+  -b -ThumbnailImage CSM30803.CR2 > thumb.jpg
+
+
+5. We can also generate extended information with verbose mode. This will display us the comprehensive data about the process that it is performing.
+  exiftool -v <filename>
+
+
+Writing Meta-Data:
+To edit any meta-data we can use it’s corresponding Exif Tag to 
+  exiftool  -<Exif Tag>= “Geek Alert”  <filename>
